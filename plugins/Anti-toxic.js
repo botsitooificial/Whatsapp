@@ -1,4 +1,4 @@
-const toxicRegex = /puto|puta|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon|puto|whore|rat|stupid|idiot|rctmre|mrd|dick|vrga|faggot/i
+const toxicRegex = /oipipodalkdjgdlkcnmxvcnvjhdsfjhsdjfksdfsdf|dkjhfhgjfdhjgfhjkghfjdgkhjsasdfjgjlkakljfgsfgdfg/i
 
 export async function before(m, { isAdmin, isBotAdmin, isOwner }) {
     if (m.isBaileys && m.fromMe)
