@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
-await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*PUEDES ENTRAR A LOS GRUPOS O VISITAR NUESTRAS PÁGINAS OFICIALES ESO NOS AYUDARÍA MUCHO*\n︎╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯(♦️)*YOU CAN ENTER THE GROUPS OR VISIT OUR OFFICIAL PAGES YOU WOULD HELP US A LOT WITH THAT$\n︎╰───────────────╯`)
+await m.reply(`╭「👑𝘔𝘪𝘤𝘩𝘪𝘉𝘰𝘵」\n│➯(♦️)*PUEDES SEGUIRNOS EN NUESTRO INSTAGRAM PARA MAS INFORMACION*\n︎╰───────────────╯\n\n\n╭「👑𝘔𝘪𝘤𝘩𝘪𝘉𝘰𝘵」`)
 let pp = imagen1
 let vn = './Audios/naa.mp3'
 let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
@@ -18,34 +18,15 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「👑𝘔𝘪𝘤𝘩𝘪𝘉𝘰𝘵」
 │➯𝗛ᴏʟᴀ,➟${taguser}
-│➯ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
-│➯*Número*➟5212412377467
-│➯*canal-YouTube*
-│➯https://youtube.com/@hades_bot2391
+│➯ᴏᴡɴᴇʀ:Michi
+│➯*Número*➟56962639465
+│➯*canal-Instagram*
+│➯https://www.instagram.com/michi_bot
 │➯ғᴇᴄʜᴀ:➟${date}
 │➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
-︎╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥*Grupos y cuentas*➻❥」
-│➯𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
-│➯https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf
-│➯𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
-│➯https://chat.whatsapp.com/DpRVuXpKRF43iMOEtg85wz
-│➯𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰
-│➯https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
-│➯𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
-│➯https://www.facebook.com/groups/987464505464904/?ref=share
-│➯𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎
-│➯https://youtube.com/@hades_bot2391
-│➯𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚍𝚒𝚜𝚌𝚘𝚛𝚍 
-│➯https://discord.gg/nQVWW6xv
-│➯INSTAGRAM
-│➯https://instagram.com/ofc.yovani.bot?igshid=ZDc4ODBmNjlmNQ==
-│➯KIKTOK
-│➯https://vm.tiktok.com/ZM2rbFWnr/
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
