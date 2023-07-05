@@ -19,12 +19,12 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「👑𝘔𝘪𝘤𝘩𝘪𝘉𝘰𝘵」
 │➯ *𝗛ᴏʟᴀ,➟${taguser}
-│➯ *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ
-│➯ **Número*➟5212412377467
-│➯ **canal-YouTube*
-│➯ *https://youtube.com/@hades_bot2391
+│➯ *ᴏᴡɴᴇʀ:𝘔𝘪𝘤𝘩𝘪𝘉𝘰𝘵
+│➯ **Número*➟56962639465
+│➯ **canal-Instagram*
+│➯ *https://www.instagram.com/michi_bot
 │➯ *ғᴇᴄʜᴀ:➟${date}
 │➯ *ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
@@ -35,7 +35,7 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *🧿Experiencia:* ${exp}
 │➯ *⚓Rango:* ${role}
 │➯ *💎Diamantes:* ${limit}
-│➯ *👾Hades-Coins:* ${money}
+│➯ *👾Michi-Coins:* ${money}
 │➯ *🪙Tokens:* ${joincount}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
@@ -84,7 +84,6 @@ let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻
 │➯ *.owner*
 │➯ *.labiblia*
 │➯ *.enable*
-│➯ *.instalarbot*
 │➯ *.comangrupos*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
