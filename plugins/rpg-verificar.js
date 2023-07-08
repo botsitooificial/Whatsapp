@@ -17,7 +17,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-  m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+  m.reply(`╭「MichiBot」
 │➯⛥❏[🌴]𝙷𝙾𝙻𝙰 𝚈𝙰 𝙴𝚂𝚃Á𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾 
 │➯⛥❏[🤴]𝙽𝙾𝙼𝙱𝚁𝙴 ${name}
 │➯⛥❏[🏧]𝙴𝙳𝙰𝙳 ${age} 𝙰Ñ𝙾𝚂 
