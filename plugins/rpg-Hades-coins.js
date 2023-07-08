@@ -5,15 +5,15 @@ let pp = 'src/minar.mp4'
 let hades= Math.floor(Math.random() * 1000)
 global.db.data.users[m.sender].money += hades * 1  
 let time = global.db.data.users[m.sender].lastcoins + 600000
-if (new Date - global.db.data.users[m.sender].lastcoins < 600000) throw `✴️ʏᴀ ʜᴀs ᴍɪʀᴀᴅᴏ ⚔️ʜᴀᴅᴇs-ᴄᴏɪɴs ᴇsᴘᴇʀᴀ ᴘᴀʀᴀ ᴠᴏʟᴠᴇʀ ᴀ ᴍɪɴᴀʀ${msToTime(time - new Date())} ᴘᴀʀᴀ ᴠᴏʟᴠᴇʀ ᴀ ᴍɪɴᴀʀ⚔️`  
+if (new Date - global.db.data.users[m.sender].lastcoins < 600000) throw `✴️YA HAS MINADO ⚔️MICHI COINS ESPERA PARA VOLVER A MINAR${msToTime(time - new Date())} PARA VOLVER A MINAR⚔️`  
 
-m.reply(`*[ 🧿 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${minar3} ${hades} ʜᴀᴅᴇs-ᴄᴏɪɴs💰*`)
+m.reply(`*[ 🧿 ] GENIAL MINASTE ${minar3} ${hades} MICHI COINS💰*`)
 global.db.data.users[m.sender].lastcoins = new Date * 1  
 
 }
 handler.help = ['minar3']
 handler.tags = ['hades']
-handler.command = ['minar3', 'miming3', 'mine3', 'minarhadescoins', 'minarcoins', 'minarhades'] 
+handler.command = ['minar3', 'miming3', 'mine3', 'minarmichicoins', 'minarcoins', 'minarmichi'] 
 handler.fail = null
 handler.exp = 0
 handler.register = true
