@@ -9,7 +9,7 @@ m.reply(`╭「MichiBot」
 │➯‣❏ *✨*𝙽𝚘𝚖𝚋𝚛𝚎:* ${name}
 │➯‣❏ *💎𝙳𝚒𝚊𝚖𝚊𝚗𝚝𝚎𝚜:* ${global.db.data.users[who].limit}💎
 │➯‣❏ *💥Tokens* 🪙${global.db.data.users[who].joincount}
-│➯‣❏ *♦️ʜᴀᴅᴇs-ᴄᴏɪɴs* ${global.db.data.users[who].money}
+│➯‣❏ *♦️Michi-coins* ${global.db.data.users[who].money}
 │➯‣❏ *🧿Exp* ${global.db.data.users[who].exp}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
