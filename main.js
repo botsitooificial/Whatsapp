@@ -254,7 +254,7 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '-------------------------------------------------\nMichiBot\n│HOLA @user\n│▢♦️𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n│▢NUMERO DE MI CREADOR\n│https://wa.me/56962639465\n│▢📚ᩭEN ESTE GRUPO PODRAS ENCONTRAR\n│▢🍀AMISTADES\n│▢🤝AMIGOS\n│▢📚DESMADRE\n│▢😇ᩭCOTORREO Y MAS\n│▢AVISO IMPORTANTE:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘\n@desc\nMichiBot\n-------------------------------------------------'
+conn.welcome = '-------------------------------------------------\nMichiBot\n│HOLA @user\n│▢𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n│▢NUMERO DE MI CREADOR\n│https://wa.me/56954390663\n│▢📚EN ESTE GRUPO PODRAS ENCONTRAR\n│▢🍀AMISTADES\n│▢🤝AMIGOS\n│▢📚DESMADRE\n│▢😇ᩭCOTORREO Y MAS\n│▢AVISO IMPORTANTE:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘\n@desc\nMichiBot\n-------------------------------------------------'
 conn.bye = '-------------------------------------------------\n@user\n𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚🌱\n\n *HE LEFT THE GROUP NO WAY THAT YOU GO WELL UNTIL THE NEXT TIME GOD BLESS YOU*\nMichiBot\n-------------------------------------------------'
 conn.spromote = '*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄  @user 𝐒𝐄 𝐒𝐔𝐌𝐀 𝐀𝐋 𝐆𝐑𝐔𝐏𝐎 𝐃𝐄 𝐀𝐃𝐌𝐈𝐍𝐒*\n\n*𝐀𝐃𝐌𝐈𝐍𝐒 𝐆𝐑𝐎𝐔𝐏 𝐉𝐎𝐈𝐍𝐒!!*'
 conn.sdemote = '*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄 @user 𝐀𝐁𝐀𝐍𝐃𝐎𝐍𝐀 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 𝐃𝐄 𝐀𝐃𝐌𝐈𝐍𝐒 !!\n\n*𝐀𝐁𝐀𝐍𝐃𝐎𝐍𝐄𝐃 𝐓𝐇𝐄 𝐀𝐃𝐌𝐈𝐍 𝐆𝐑𝐎𝐔𝐏*'
