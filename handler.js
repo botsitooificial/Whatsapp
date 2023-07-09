@@ -1159,7 +1159,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
   if (user.commandCount === 5) {
     const remainingTime = Math.ceil((user.lastCommandTime + 5000 - Date.now()) / 1000)
     if (remainingTime > 0) {
-      const messageText = `*[ ⚠ ] Espera ${remainingTime} segundos antes de usar otro comando*`
+      const messageText = `*[ ⚠ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐃𝐈𝐂𝐄 𝐐𝐔𝐄 𝐄𝐒𝐏𝐄𝐑𝐄𝐒 ${remainingTime} 𝐒𝐄𝐆𝐔𝐍𝐃𝐎𝐒 𝐀𝐍𝐓𝐄𝐒 𝐃𝐄 𝐔𝐒𝐀𝐑 𝐎𝐓𝐑𝐎 𝐂𝐎𝐌𝐀𝐍𝐃𝐎*`
       m.reply(messageText)
       return
     } else {
@@ -1223,11 +1223,11 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎 ❗] 𝚂𝚄𝚂 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂 𝚂𝙴 𝙷𝙰𝙽 𝙰𝙶𝙾𝚃𝙰𝙳𝙾, 𝙿𝚄𝙴𝙳𝙴 𝙲𝙾𝙼𝙿𝚁𝙰𝚁 𝙼𝙰𝚂 𝚄𝚂𝙰𝙽𝙳𝙾 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 .shop*`, m)
+                    this.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎 ❗] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐋𝐄 𝐀𝐕𝐈𝐒𝐀 𝐐𝐔𝐄 𝐒𝐔𝐒 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄𝐒 𝐒𝐄 𝐇𝐀𝐍 𝐀𝐆𝐎𝐓𝐀𝐃𝐎, 𝐏𝐔𝐄𝐃𝐄 𝐂𝐎𝐌𝐏𝐑𝐀𝐑 𝐌𝐀𝐒 𝐔𝐒𝐀𝐍𝐃𝐎 𝐄𝐋 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 .shop*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎 ❗] 𝚂𝙴 𝚁𝙴𝚀𝚄𝙸𝙴𝚁𝙴 𝙴𝙻 𝙽𝙸𝚅𝙴𝙻 ${plugin.level} 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾. 𝚃𝚄 𝙽𝙸𝚅𝙴𝙻 𝙴𝚂 ${_user.level}*`, m)
+                    this.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎 ❗] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐋𝐄 𝐀𝐕𝐈𝐒𝐀 𝐐𝐔𝐄 𝐒𝐄 𝐑𝐄𝐐𝐔𝐈𝐄𝐑𝐄 𝐄𝐋 𝐍𝐈𝐕𝐄𝐋 ${plugin.level} 𝐏𝐀𝐑𝐀 𝐏𝐎𝐃𝐄𝐑 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎, 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 𝐄𝐒 ${_user.level}*`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
@@ -1473,15 +1473,15 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝙴𝙻/𝙻𝙰 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] *THIS COMMAND CAN ONLY DO UPDATED BY* *EL,* */THE OWNER/A* *(OWNER) OF THE BOT*',
-        owner: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝙴𝙻/𝙻𝙰 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] *THIS COMMAND CAN ONLY DO UPDATED BY* *EL,* */THE OWNER/A* *(OWNER) OF THE BOT*',
-        mods: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝙼𝙾𝙳𝙴𝚁𝙰𝙳𝙾𝚁𝙴𝚂 𝚈 𝙴𝙻/𝙻𝙰 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] *THIS COMMAND CAN ONLY DO UPDATED BY* *EL,* */THE OWNER/A* *(OWNER) OF THE BOT*',
-        premium: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝚈 𝙴𝙻/𝙻𝙰 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS WHEN CAN BE USED BY PERMIUM USERS AND THE OWNER OF THE BOT*',
-        group: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙽 𝙶𝚁𝚄𝙿𝙾𝚂*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND CAN ONLY BE USED IN GROUPS*',
-        private: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙽 𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND CAN ONLY BE USED IN A PRIVATE BOT CHAT*',
-        admin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝙰𝙳𝙼𝙸𝙽𝚂 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND CAN BE USED BY GROUP ADMINS*',
-        botAdmin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙿𝙰𝚁𝙰 𝙿𝙾𝙳𝙴𝚁 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂 𝙽𝙴𝙲𝙴𝚂𝙰𝚁𝙸𝙾 𝚀𝚄𝙴 𝙴𝙻 𝙱𝙾𝚃 𝚂𝙴𝙰 𝙰𝙳𝙼𝙸𝙽, 𝙰𝙲𝙴𝙽𝙳𝙴𝚁 𝙰 𝙰𝙳𝙼𝙸𝙽 𝙴𝚂𝚃𝙴 𝙽𝚄𝙼𝙴𝚁𝙾*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*TO BE ABLE TO USE THIS COMMAND, THE BOT NEEDS TO BE AN ADMIN, PROMOTE THIS NUMBER TO ADMIN*',
-        unreg: '*[ 🛑 𝐇𝐄𝐘!! 𝐀𝐋𝐓𝐎, 𝐍𝐎 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 🛑 ]*\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ /reg nombre.edad*\n\n\n*[ 🛑 *HEY ALTO, YOU ARE NOT REGISTERED* 🛑 ]* *TO USE THIS COMMAND YOU MUST REGISTER USING THE COMMAND\n/reg name.age*',
+        rowner: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐏𝐎𝐑 𝐄𝐋/𝐋𝐀 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎/𝐀 (𝐎𝐖𝐍𝐄𝐑) 𝐃𝐄𝐋 𝐁𝐎𝐓*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] *𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐁𝐘 𝐓𝐇𝐄 𝐎𝐖𝐍𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐁𝐎𝐓*',
+        owner: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐏𝐎𝐑 𝐄𝐋/𝐋𝐀 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎/𝐀 (𝐎𝐖𝐍𝐄𝐑) 𝐃𝐄𝐋 𝐁𝐎𝐓*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] *𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐁𝐘 𝐓𝐇𝐄 𝐎𝐖𝐍𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐁𝐎𝐓*',
+        mods: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐏𝐎𝐑 𝐄𝐋/𝐋𝐀 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎/𝐀 (𝐎𝐖𝐍𝐄𝐑) 𝐃𝐄𝐋 𝐁𝐎𝐓*\n\n\n*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] *𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐁𝐘 𝐓𝐇𝐄 𝐎𝐖𝐍𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐁𝐎𝐓*',
+        premium: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐏𝐎𝐑 𝐄𝐋/𝐋𝐀 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎/𝐀 (𝐎𝐖𝐍𝐄𝐑) 𝐃𝐄𝐋 𝐁𝐎𝐓*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐁𝐘 𝐓𝐇𝐄 𝐎𝐖𝐍𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐁𝐎𝐓*',
+        group: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐄𝐍 𝐆𝐑𝐔𝐏𝐎𝐒*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐈𝐍 𝐆𝐑𝐎𝐔𝐏𝐒*',
+        private: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐄𝐍 𝐂𝐇𝐀𝐓 𝐏𝐑𝐈𝐕𝐀𝐃𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐈𝐍 𝐓𝐇𝐄 𝐁𝐎𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐓𝐄*',
+        admin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐒𝐎𝐋𝐎 𝐏𝐔𝐄𝐃𝐄 𝐒𝐄𝐑 𝐔𝐓𝐈𝐋𝐈𝐙𝐀𝐃𝐎 𝐏𝐎𝐑 𝐀𝐃𝐌𝐈𝐍𝐒 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐂𝐀𝐍 𝐎𝐍𝐋𝐘 𝐁𝐄 𝐔𝐒𝐄𝐃 𝐁𝐘 𝐆𝐑𝐎𝐔𝐏 𝐀𝐃𝐌𝐈𝐍𝐒*',
+        botAdmin: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐃𝐕𝐈𝐄𝐑𝐓𝐄 𝐐𝐔𝐄 𝐏𝐀𝐑𝐀 𝐏𝐎𝐃𝐄𝐑 𝐔𝐒𝐀𝐑 𝐄𝐒𝐓𝐄 𝐂𝐎𝐌𝐀𝐍𝐃𝐎 𝐄𝐒 𝐍𝐄𝐂𝐄𝐒𝐀𝐑𝐈𝐎 𝐐𝐔𝐄 𝐄𝐋 𝐁𝐎𝐓 𝐒𝐄𝐀 𝐀𝐃𝐌𝐈𝐍, 𝐀𝐒𝐂𝐄𝐍𝐃𝐄𝐑 𝐀 𝐀𝐃𝐌𝐈𝐍 𝐄𝐒𝐓𝐄 𝐍𝐔𝐌𝐄𝐑𝐎*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐖𝐀𝐑𝐍𝐒 𝐓𝐇𝐀𝐓 𝐈𝐍 𝐎𝐑𝐃𝐄𝐑 𝐓𝐎 𝐔𝐒𝐄 𝐓𝐇𝐈𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐈𝐓 𝐈𝐒 𝐍𝐄𝐂𝐄𝐒𝐒𝐀𝐑𝐘 𝐅𝐎𝐑 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐓𝐎 𝐁𝐄 𝐀𝐃𝐌𝐈𝐍, 𝐏𝐑𝐎𝐌𝐎𝐓𝐄 𝐓𝐇𝐈𝐒 𝐍𝐔𝐌𝐁𝐄𝐑 𝐓𝐎 𝐀𝐃𝐌𝐈𝐍*',
+        unreg: '*[ 🛑 𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐓𝐄 𝐀𝐕𝐈𝐒𝐀 𝐐𝐔𝐄 𝐍𝐎 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 🛑 ]*\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ /reg nombre.edad*\n\n\n*[ 🛑 *𝐌𝐈𝐂𝐇𝐈 𝐁𝐎𝐓 𝐀𝐋𝐄𝐑𝐓𝐒 𝐘𝐎𝐔 𝐓𝐇𝐀𝐓 𝐘𝐎𝐔 𝐀𝐑𝐄 𝐍𝐎𝐓 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑𝐄𝐃* 🛑 ]* *TO USE THIS COMMAND YOU MUST REGISTER USING THE COMMAND\n/reg name.age*',
         restrict: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂𝚃𝙰 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝙳𝙾/𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾 𝙿𝙾𝚁 𝙳𝙴𝚂𝙸𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*\n\n\n[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ]*THIS COMMAND IS REGISTERED/DISABLED BY DECISION OF THE OWNER OF THE BOT*'
          }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
