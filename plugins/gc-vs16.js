@@ -104,7 +104,8 @@ throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅
 }}}}}}}}}
 handler.command = /^(16vs16|vs16)$/i
 handler.register = true
-handler.limit = 4
+handler.group = true
+handler.admin = true
 export default handler
 
 async function igeh(url_media) {
