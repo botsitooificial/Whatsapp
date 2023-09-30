@@ -120,7 +120,6 @@ handler.command = /^(vs24|24vs24)$/i
 handler.register = true
 handler.group = true
 handler.admin = true
-handler.limit = 4
 export default handler
 
 async function igeh(url_media) {
