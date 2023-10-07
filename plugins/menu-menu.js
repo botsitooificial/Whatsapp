@@ -39,6 +39,19 @@ let str = `╭「👑𝘔𝘪𝘤𝘩𝘪𝘉𝘰𝘵」
 │➯ *🪙Tokens:* ${joincount}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
+╭─「➻❥ *LISTAS PARA VS DE MAPA GRANDE Y MAPAS DE FREE FIRE* ➻❥」
+│➯ *.vs8 te manda una lista de 8vs8(sin horario ni etiqueta )*
+│➯ *.vs12 te manda una lista de 8vs8(sin horario ni etiqueta)*
+│➯ *.vs16 te manda una lista de 8vs8(sin horario ni etiqueta)*
+│➯ *.vs20 te manda una lista de 8vs8(sin horario ni etiqueta)*
+│➯ *.vs24 te manda una lista de 8vs8(sin horario ni etiqueta)*
+│➯ *.bermuda te manda foto del mapa bermuda*
+│➯ *.purgatorio te manda foto del mapa purgatorio*
+│➯ *.kalahari te manda foto del mapa kalahari*
+│➯ *.alpes te manda foto del mapa alpes*
+│➯ *.nexterra te manda foto del mapa nexterra*
+╰───────────────╯
+🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *gana y compara* ➻❥」
 │➯ *.minar gana xp*
 │➯ *.minar2 gana Diamantes*
